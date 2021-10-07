@@ -8,13 +8,13 @@
   min-height: 581px;
   padding: 40px;
 
-  background-color: var(--primary-background-color);
+  background-color: map-get($colors, "background-primary");
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-backdrop.is-hidden .hero-modal {
-  transform: translate(-50%, -50%) scale(1.2);
+  .hero-backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
 }
 
 .hero-modal-button {
@@ -36,9 +36,9 @@
   background-color: transparent;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-modal-button:hover,
-.hero-modal-button:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: map-get($colors, "accent");
+  }
 }

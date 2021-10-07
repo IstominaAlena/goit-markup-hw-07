@@ -8,12 +8,13 @@
 .member {
   margin-bottom: 10px;
 
-  color: var(--title-text-color);
+  color: map-get($colors, "title-text");
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
+
 .team-member {
   margin-left: 30px;
   margin-top: 30px;
@@ -21,7 +22,7 @@
 
   text-align: center;
 
-  background-color: var(--primary-background-color);
+  background-color: map-get($colors, "background-primary");
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }

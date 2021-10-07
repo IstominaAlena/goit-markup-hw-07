@@ -1,18 +1,18 @@
 .location.lower-contact {
-  color: var(--secondary-text-color);
+  color: map-get($colors, "text-secondary");
 }
 
 .lower-contact {
   color: rgba(255, 255, 255, 0.6);
 
   text-decoration: none;
-}
 
-.lower-contact:not(:last-child) {
-  margin-bottom: 9px;
-}
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 
-.lower-contact:hover,
-.lower-contact:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: map-get($colors, "accent");
+  }
 }

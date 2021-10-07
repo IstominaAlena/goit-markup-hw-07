@@ -2,7 +2,7 @@ $colors: (
   "accent": #2196f3,
   "main-text": #757575,
   "title-text": #212121,
-  "secondary-text": #ffffff,
+  "text-secondary": #ffffff,
   "background-primary": #ffffff,
   "background-secondary": #f5f4fa,
   "background-accent": #2f303a,
@@ -11,5 +11,6 @@ $colors: (
   "card-border": #eeeeee,
   "svg": #afb1b8,
   "button-hover": #188ce8,
-  "shadow-color": rgba(0, 0, 0, 0.15),
+  "shadow": rgba(0, 0, 0, 0.15),
+  "overlay": rgba(47, 48, 58, 0.4),
 );

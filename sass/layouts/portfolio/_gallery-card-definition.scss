@@ -1,5 +1,5 @@
 .card-title {
-  color: var(--title-text-color);
+  color: map-get($colors, "title-text");
 
   font-weight: 700;
   font-size: 18px;
@@ -10,7 +10,7 @@
 }
 
 .card-text {
-  color: var(--main-text-color);
+  color: map-get($colors, "main-text");
 
   font-size: 16px;
   line-height: 1.87;
@@ -24,9 +24,9 @@
   height: 110px;
 
   padding: 20px 24px;
-  border-right: 1px solid var(--card-border-color);
-  border-bottom: 1px solid var(--card-border-color);
-  border-left: 1px solid var(--card-border-color);
+  border-right: 1px solid map-get($colors, "card-border");
+  border-bottom: 1px solid map-get($colors, "card-border");
+  border-left: 1px solid map-get($colors, "card-border");
 
-  background-color: var(--primary-background-color);
+  background-color: map-get($colors, "background-primary");
 }

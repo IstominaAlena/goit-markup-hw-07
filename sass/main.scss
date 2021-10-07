@@ -3,8 +3,6 @@
 @import "./utils/visually-hidden";
 @import "./utils/mixins";
 
-@import "./utils/roots";
-
 // ********** BASE
 @import "./base/main/common";
 @import "./base/main/container";
@@ -42,12 +40,13 @@
 
 @import "./layouts/main/footer/footer-general";
 //CONTACTS
-@import "./layouts/main/footer/contacts-section/footer-contacts-general";
 @import "./layouts/main/footer/contacts-section/footer-contacts";
 @import "./layouts/main/footer/contacts-section/footer-contact-links";
+
 //JOIN US
 @import "./layouts/main/footer/join-us-section/join-us-general";
 @import "./layouts/main/footer/join-us-section/join-us-link-icon";
+
 //MAILING
 @import "./layouts/main/footer/mailing-section/mailing-general";
 @import "./layouts/main/footer/mailing-section/mailing-form";

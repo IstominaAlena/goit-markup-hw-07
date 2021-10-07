@@ -11,5 +11,5 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--secondary-text-color);
+  color: map-get($colors, "text-secondary");
 }
