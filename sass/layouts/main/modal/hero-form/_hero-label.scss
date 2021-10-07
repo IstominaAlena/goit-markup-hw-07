@@ -1,0 +1,17 @@
+.hero-label + .hero-label {
+  margin-top: 10px;
+}
+
+.hero-label {
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.01em;
+
+  color: var(--main-text-color);
+}
+
+.icon-container {
+  display: block;
+  position: relative;
+}

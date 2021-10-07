@@ -1,0 +1,22 @@
+.bottom-contacts {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--accent-background-color);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mailing-container {
+  width: calc((100% - 30px) / 2);
+  padding-top: 12px;
+}
+
+.left-side-footer {
+  display: flex;
+  justify-content: space-between;
+  width: calc((100% - 30px) / 2);
+}

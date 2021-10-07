@@ -1,0 +1,15 @@
+@mixin font(
+  $ff: inherit,
+  $fw: 500,
+  $fs: 16px,
+  $lh: 1.62,
+  $ls: inherit,
+  $ta: center
+) {
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  text-align: $ta;
+}
