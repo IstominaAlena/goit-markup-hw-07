@@ -11,7 +11,7 @@
 
   &:focus {
     outline: none;
-    border-color: map-get($colors, "accent");
+    border-color: var(--accent-color);
   }
 
   &::placeholder {

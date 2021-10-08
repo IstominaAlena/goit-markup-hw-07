@@ -6,8 +6,8 @@
 
   cursor: pointer;
 
-  color: map-get($colors, "title-text");
-  background-color: map-get($colors, "background-secondary");
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
 
   font-family: inherit;
   font-weight: 500;

@@ -8,6 +8,6 @@
 
   &:hover,
   &:focus {
-    background-color: map-get($colors, "accent");
+    background-color: var(--accent-color);
   }
 }

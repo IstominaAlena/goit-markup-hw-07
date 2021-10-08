@@ -5,5 +5,5 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 
-  color: map-get($colors, "text-secondary");
+  color: var(--secondary-text-color);
 }

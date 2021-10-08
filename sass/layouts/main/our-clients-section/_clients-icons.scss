@@ -1,10 +1,10 @@
 .client-icon {
-  fill: map-get($colors, "svg");
+  fill: var(--svg-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .client-link:hover &,
   .client-link:focus & {
-    fill: map-get($colors, "accent");
+    fill: var(--accent-color);
   }
 }

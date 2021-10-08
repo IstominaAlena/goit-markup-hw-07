@@ -7,7 +7,7 @@
   font-size: 16px;
   line-height: 1.25;
 
-  color: map-get($colors, "text-secondary");
+  color: var(--secondary-text-color);
   background-color: transparent;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -20,7 +20,7 @@
   }
 
   &:focus {
-    border-color: map-get($colors, "accent");
+    border-color: var(--accent-color);
     outline: none;
   }
 }

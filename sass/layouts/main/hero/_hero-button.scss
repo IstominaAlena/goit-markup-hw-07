@@ -6,12 +6,12 @@
   padding: 10px 32px;
   min-width: 200px;
 
-  background-color: map-get($colors, "accent");
-  color: map-get($colors, "text-secondary");
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
   @include shadow();
 
   &:hover,
   &:focus {
-    background-color: map-get($colors, "button-hover");
+    background-color: var(--hover-button-color);
   }
 }

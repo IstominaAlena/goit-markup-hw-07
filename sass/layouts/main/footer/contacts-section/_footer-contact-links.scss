@@ -1,5 +1,5 @@
 .location.lower-contact {
-  color: map-get($colors, "text-secondary");
+  color: var(--secondary-text-color);
 }
 
 .lower-contact {
@@ -13,6 +13,6 @@
 
   &:hover,
   &:focus {
-    color: map-get($colors, "accent");
+    color: var(--accent-color);
   }
 }
