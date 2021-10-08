@@ -12,7 +12,7 @@
 
   background-color: map-get($colors, "accent");
   color: map-get($colors, "text-secondary");
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  @include shadow();
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

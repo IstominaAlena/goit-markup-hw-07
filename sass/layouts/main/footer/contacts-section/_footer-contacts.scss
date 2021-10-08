@@ -1,5 +1,5 @@
 .address-container {
-  width: calc((100% - 30px) / 2);
+  width: map-get($width-calc, "wc2;");
 }
 
 .contacts.bottom {

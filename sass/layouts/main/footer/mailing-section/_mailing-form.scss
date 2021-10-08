@@ -1,6 +1,5 @@
 .mailing-form-container {
-  display: flex;
-  justify-content: space-between;
+  @include flexing($jus-cont: space-between);
 }
 
 .mailing-btn-container {

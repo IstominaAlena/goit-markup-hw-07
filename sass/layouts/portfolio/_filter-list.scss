@@ -1,6 +1,5 @@
 .filter {
-  display: flex;
-  justify-content: center;
+  @include flexing();
 }
 
 .filter-item:not(:first-child) {

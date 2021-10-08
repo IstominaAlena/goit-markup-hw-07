@@ -1,7 +1,7 @@
 .hero-input {
   width: 100%;
   height: 40px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  @include border(rgba(33, 33, 33, 0.2));
   border-radius: 4px;
   padding-left: 42px;
   margin-top: 4px;

@@ -22,15 +22,14 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexing($al-it: center);
 
   width: 30px;
   height: 30px;
   padding: 0;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  @include border(rgba(0, 0, 0, 0.1));
+
   cursor: pointer;
 
   background-color: transparent;
